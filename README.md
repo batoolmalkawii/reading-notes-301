@@ -2,7 +2,7 @@
 ## Hey! this is Explore the Tech blog.
 
 In this blog, you'll find various topics realted to web development _explained in a simple, neat way!_
-You'll find in depth discussions and topics about the foundation of web development: **HTML, CSS, Javascript** 
+You'll find in depth discussions and topics about the foundation of web development.
 
 But first, let me introduce myself to you guys!
 My name is Batool Malkawi. I am a masters graduate from the University of Jordan in the major of Computer Science.
