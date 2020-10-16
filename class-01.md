@@ -17,4 +17,17 @@ Responsive web design is broken down into three main components, described as fo
      * `@media` rule inside of an existing style sheet (RECOMMENDED to avoid any additional HTTP requests).
      * importing a new style sheet using the `@import` rule.
      * linking to a separate style sheet from within the HTML document.
+    ##### Logical Operators in Media Queries:
+    Logical operators in media queries help build powerful expressions. There are three different logical operators available for use within media queries, including `and`, `not`, and `only`.
+    ##### Media Features in Media Queries:
+    Media features identify what **attributes** or **properties** will be targeted within the media query expression. Examples are as follows:
+    * `width`, `height`.
+    * `orientation`: `landscape`, `portrait`.
+    * `aspect-ratio`.
+    * `resolution`.
+    * `color`, `monochrome`, `grid`.
+    
+* Flexible Media: One quick way to make media scalable is by using the `max-width` property with a value of `100%`. Doing so ensures that as the viewport gets smaller any media will scale down according to its containers width.
+
+
 
