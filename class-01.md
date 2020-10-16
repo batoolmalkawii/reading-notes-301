@@ -49,3 +49,7 @@ An appropriate way to build grids in websites is as follows:
 * Clearing the context. 
 * Gutters: `box-sizing: border-box`, fixed `padding`, 
 
+
+
+## 4. ***Scalable and Modular architecture for CSS (SMACSS)***:
+SMACSS is a way to _examine_ your design process and as a way to fit those rigid frameworks into a _flexible_ thought process. It is an attempt to _documen_t a consistent approach to site development when using CSS. 
