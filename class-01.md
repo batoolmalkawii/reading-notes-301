@@ -40,3 +40,12 @@ The `float` property allows you to take an element in normal flow and place it a
 * `float`: positions the columns next to each other.
 * `margin`: creates a gap between the columns.
 
+
+
+## 3. ***Grids***:
+An appropriate way to build grids in websites is as follows: 
+* Creating context with `width: 100%`. (container).
+* Creating to columns floating to `left` with `width 66.6%` and `right` with `width 33.3%` (percentages make the grid flexible).
+* Clearing the context. 
+* Gutters: `box-sizing: border-box`, fixed `padding`, 
+
