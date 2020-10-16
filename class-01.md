@@ -2,7 +2,7 @@
 
 In today's blog, I am going to discuss some topics related to ***web development*** in _CSS_. So, _let's get started!_
 
-1. ***Responsice Web Design (RWD)***:
+## 1. ***Responsice Web Design (RWD)***:
 
 Responsive web design is the practice of building a website suitable to work on _every_ device and _every_ screen size, no matter how large or small, mobile or desktop.
 Responsive generally means to **react** quickly and positively to any change, while adaptive means to be easily **modified** for a new purpose or situation, such as change.
@@ -31,7 +31,10 @@ Responsive web design is broken down into three main components, described as fo
 * ***Flexible Media:*** One quick way to make media scalable is by using the `max-width` property with a value of `100%`. Doing so ensures that as the viewport gets smaller any media will scale down according to its containers width.
 
 
-2. ***All About floats***:
+
+
+## 2. ***All About floats***:
+
 The `float` property allows you to take an element in normal flow and place it as far to the left or right of the containing element as possible. This can be `float:right` or `float-left`. Furthermore, float can be cleared using the `clear` property, the values can be `left`, `right`, `both` and `none`. To create multi-column layouts with floats, The following three CSS properties are used to position the columns next to each other:
 * `width`: sets the width of the columns.
 * `float`: positions the columns next to each other.
