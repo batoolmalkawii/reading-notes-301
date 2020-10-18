@@ -2,7 +2,17 @@
 In today's blog, I am going to discuss several topics related to _web development_. So, _let's get started!_
 
 
+### 1. jQuery:
+jQuery offers a simple way to achieve a variety of common JavaScript tasks quickly and consistently, across all major browsers and without any fallback code needed, such as the following:
+* Select elements.
+* Perform tasks.
+* Handle events.
 
+jQuery is a javascript file that is included in the webpage. it let's you find elements using CSS-style selectors, and then do something with the elements using **jQuery** methods. There are several benefits for using jQuery, described as follows:
+* Simple selectors.
+* Common tasks in less code.
+* Cross-browser compatibility.
+* 
 
 ### 4. Pair Programming:
 Pair programing is a technique used to foster a collaborative environment while developing key industry skills, and it is used commonly in many agile work environments.
