@@ -12,7 +12,29 @@ jQuery is a javascript file that is included in the webpage. it let's you find e
 * Simple selectors.
 * Common tasks in less code.
 * Cross-browser compatibility.
-* 
+
+
+  ##### Looping in jQuery:
+  With jQuery, when a selector returns multiple elements, you can update all of them using the one method. There is no need to use a loop.
+  ##### Chaining in jQuery:
+  If you want to use more than one jQuery method on the same selection of elements, you can list several methods at a time using dot notation to separate each one.
+  The process of placing several methods in the same selector is referred to as chaining. It results in code that is far more compact.
+  `$( 'l i [i d!="one"] ') . hide() .delay(SOO) . fadeln(1400);`
+  ##### Getting element content: 
+  `.text`: content only.
+  `.html`: content + html code within.
+  ##### Adding content:
+  `.append`, `.preappend`, `before`, `after`.
+  ##### Updating elements:
+  `.text`, `.html`, `.replacewith`, `.remove`.
+  ##### Inseting content:
+  1: Create the new elements in a jQuery object.
+  2: Use a method to insert the content into the page. `.append`.., etc.
+  ##### Getting and setting attribute values:
+  `.attr()`, `.removeAttr()`, `.addClass()`, `.removeClass`.
+  ##### Getting and setting CSS properties:
+  `.css()`.
+
 
 ### 4. Pair Programming:
 Pair programing is a technique used to foster a collaborative environment while developing key industry skills, and it is used commonly in many agile work environments.
