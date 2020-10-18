@@ -34,9 +34,19 @@ jQuery is a javascript file that is included in the webpage. it let's you find e
   `.attr()`, `.removeAttr()`, `.addClass()`, `.removeClass`.
   ##### Getting and setting CSS properties:
   `.css()`.
-
-
-### 4. Pair Programming:
+  
+  
+  ### Including jQuery in file in code:
+  When a page loads jQuery from a CDN, you will often see a syntax like the one shown below. It starts with a `<script>` tag that tries to load the jQuery file from the CDN. But note that the URL for the script starts with two forward slashes (not http:). This is known as a **protocol relative URL**. If the user is looking at the current page through https, then they will not see an error that tells them there are unsecure items on the page.
+  The _position_ of <script> elements can affect how quickly a web page seems to load.
+  
+  ### Plugins in jQuery:
+  Plugins are scripts that extend the functionality of the jQuery library. Hundreds have been written and are available for you to use.
+  Plugins are written so that new methods extend the jQuery object and can, therefore, be used on a jQuery selection. As long as you know how to do the following with jQuery:
+  * Make a selection of elements.
+  * Call a method and use parameters.
+  
+### 2. Pair Programming:
 Pair programing is a technique used to foster a collaborative environment while developing key industry skills, and it is used commonly in many agile work environments.
 pair programming involves two roles: 
 * Driver: the programmer who is typing and the only one whose hands are on the keyboard. Manages the text editor, switching files, version control, awriting—code.
