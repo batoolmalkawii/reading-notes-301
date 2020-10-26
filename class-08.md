@@ -60,8 +60,6 @@ The LIMIT will reduce the number of rows to return, and the optional OFFSET will
   ---------
   ### OUTER JOINs:
    - Depending on how you want to analyze the data, the INNER JOIN we used last lesson might not be sufficient because the resulting table only contains data that belongs in both of the tables.
-
-If the two tables have asymmetric data, which can easily happen when data is entered in different stages, then we would have to use a LEFT JOIN, RIGHT JOIN or FULL JOIN instead to ensure that the data you need is not left out of the results.
 ------------
 ### NULLs
 - NULL values in an SQL database. It's always good to reduce the possibility of NULL values in databases because they require special attention when constructing queries, constraints 
