@@ -16,7 +16,7 @@ A relational database represents a collection of related (two-dimensional) table
 - By learning SQL, the goal is to learn how to answer specific questions about this data, like "What types of vehicles are on the road have less than four wheels?"
 or "How many models of cars does Tesla produce?", to help us make better decisions down the road.
 
-- __SELECT__ statements, which are often colloquially refered to as queries. A query in itself is just a statement which declares what data we are looking for,
+- `__SELECT__` statements, which are often colloquially refered to as queries. A query in itself is just a statement which declares what data we are looking for,
   where to find it in the database, and optionally, how to transform it before it is returned.
     - EX: Select query for a specific columns
 SELECT column, another_column, …
@@ -35,19 +35,19 @@ WHERE condition
     AND/OR …;
     
     
-    - =, !=, < <=, >, >=	Standard numerical operators
-    - BETWEEN … AND …	Number is within range of two values (inclusive)
-    - NOT BETWEEN … AND …	Number is not within range of two values (inclusive)
-    - IN (…)	Number exists in a list
-    - NOT IN (…)	Number does not exist in a list
-    - =	Case sensitive exact string comparison (notice the single equals)
-    - != or <>	Case sensitive exact string inequality comparison
-    - LIKE	Case insensitive exact string comparison
-    - NOT LIKE	Case insensitive exact string inequality comparison
-    - %	Used anywhere in a string to match a sequence of zero or more characters (only with LIKE or NOT LIKE)
-    - _	Used anywhere in a string to match a single character (only with LIKE or NOT LIKE)
-    - IN (…)	String exists in a list
-    - NOT IN (…)	String does not exist in a list
+    - `=, !=, < <=, >, >=`	Standard numerical operators
+    - `BETWEEN … AND …	Number` is within range of two values (inclusive)
+    - `NOT BETWEEN … AND …`	Number is not within range of two values (inclusive)
+    - `IN (…)`	Number exists in a list
+    - `NOT IN (…)`	Number does not exist in a list
+    - `=`	Case sensitive exact string comparison (notice the single equals)
+    - `!=` or `<>`	Case sensitive exact string inequality comparison
+    - `LIKE`	Case insensitive exact string comparison
+    - `NOT LIKE`	Case insensitive exact string inequality comparison
+    - `%`	Used anywhere in a string to match a sequence of zero or more characters (only with LIKE or NOT LIKE)
+    - `_`	Used anywhere in a string to match a single character (only with LIKE or NOT LIKE)
+    - `IN (…)`	String exists in a list
+    - `NOT IN (…)`	String does not exist in a list
  
  ------------
  ###  Filtering and sorting Query results:
