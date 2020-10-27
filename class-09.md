@@ -43,6 +43,7 @@ that treats computation as the evaluation of mathematical functions and avoids c
  - __Higher-order functions__:
   - takes one or more functions as arguments.
   - or, returns a function as its result.
+  
 ______________________________________-
 
 ## 2. Refactoring JavaScript for Performance and Readability:
