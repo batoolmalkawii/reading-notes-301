@@ -61,15 +61,18 @@ The answer is to use some form of hash function, which Maps and Sets use under t
  - It's often said that a function should do one thing. Here, createUser does one thing .. kinda. It creates a user. However, if we're thinking ahead to the future, there's a good chance (if our business is successful) that this function is going to grow very large indeed. So let's start early by breaking it up.
 
 You may have also noticed that there is some duplicated logic in our random functions. The friendly-worlds package also offers lists for 'teams' and 'collections'. We can't go around writing functions for every option. Let's write one function that accepts a list of friendly things.
+
   ![link](https://i.ibb.co/931r2Q1/2020-04-07-7.png)
  
  - ### Strategies
 Return early from functions:
+
  ![link](https://i.ibb.co/m4fXz2d/2020-04-07-9.png)
  Cache variables so functions can be read like sentences:
  ![link](https://i.ibb.co/y64G1JB/2020-04-07-11.png)
  Check for Web APIs before implementing your own functionality:
  ![link](https://i.ibb.co/t2z8j7N/2020-04-07-13.png)
+ 
 It's important to get your code right the first time because in many businesses there isn't much value in refactoring. Or at least, it's hard to convince stakeholders that eventually uncared for codebases will grind productivity to a halt.
 
 
