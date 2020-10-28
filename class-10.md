@@ -19,7 +19,7 @@ In today's blog, I am going to discuss some topics related to _web development_.
 - The callback function is acted upon by the call stack during execution after the call back function has been pushed to the stack by the event loop.
 - __LIFO__: When we say that the call stack, operates by the data structure principle of Last In, First Out, it means that the last function that gets pushed into the stack is the first to be pop out, when the function returns.
 
- - ###### What causes a stack overflow?
+ - ##### What causes a stack overflow?
    - A stack overflow occurs when there is a recursive function (a function that calls itself) without an exit point.
    - The browser (hosting environment) has a maximum stack call that it can accomodate before throwing a stack error.
 - __In summary__:
