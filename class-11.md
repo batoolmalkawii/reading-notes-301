@@ -65,11 +65,5 @@ In today's blog, I am going to discuss some topics related to _web development_.
    
    - Here's the OAuth 2.0 scope information for the Books API: [link](https://www.googleapis.com/auth/books)
    
-  - Acquiring and using an API key:
-   1. Open the Credentials page in the API Console.[link](https://console.developers.google.com/apis/credentials?pli=1)
-   2. This API supports two types of credentials. Create whichever credentials are appropriate for your project:
-     - OAuth 2.0: Whenever your application requests private user data, it must send an OAuth 2.0 token along with the request. Your application first sends a client ID and, possibly, a client secret to obtain a token. You can generate OAuth 2.0 credentials for web applications, service accounts, or installed applications.
-     - API keys: A request that does not provide an OAuth 2.0 token must send an API key. The key identifies your project and provides API access, quota, and reports
-     [To keep your API keys secure](https://cloud.google.com/docs/authentication/api-keys)
-     
+ 
 
