@@ -30,8 +30,10 @@ In today's blog, I am going to discuss some topics related to _web development_.
       
  #####  - There are three modification anomalies that can occur:
     1.  - Insert Anomaly: ![link](https://www.essentialsql.com/wp-content/uploads/2014/06/Intro-Insert-Anomaly.png)
+    
         -There are facts we cannot record until we know information for the entire row. 
     2. - Update Anomaly: ![link](https://www.essentialsql.com/wp-content/uploads/2014/06/Intro-Update-Anomaly.png)
+    
     3. - Deletion Anomaly: ![link](https://www.essentialsql.com/wp-content/uploads/2014/06/Intro-Deletion-Anomaly-e1425554658757.png?ezimgfmt=ng:webp/ngcb2)
     
 
